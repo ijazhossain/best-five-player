@@ -48,6 +48,7 @@
                     team. Here
                     we found,
                     our best player</p>
+                <h2 id="error-msg" class="text-warning text-semibold text-center mt-4"></h2>
             </div>
         </div>
     </header>
@@ -157,7 +158,8 @@
                             <label for="per_player">Per Player:
                                 <input type="text" name="per_player" id="per_player_budget" class="w-100 rounded p-2">
                             </label>
-                            <button class="btn btn-primary px-4 my-3 w-100" id="calculate_budget">Calculate</button>
+                            <button class="btn btn-primary px-4 my-3 w-100 disabled"
+                                id="calculate_budget">Calculate</button>
                         </div>
                         <div>
                             <h5>Player Expense: $<span id="player_expense">00</span> </h5>
@@ -169,7 +171,8 @@
                             <label for="coach_budget">Coach:
                                 <input type="text" name="coach_budget" id="coach_budget" class="w-100 rounded p-2">
                             </label>
-                            <button class="btn btn-primary px-4 my-3 w-100" id="calculate_total_budget">Calculate
+                            <button class="btn btn-primary px-4 my-3 w-100 disabled"
+                                id="calculate_total_budget">Calculate
                                 Total</button>
                         </div>
                         <div class="d-flex justify-content-between">
@@ -188,7 +191,7 @@
     <script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
